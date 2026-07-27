@@ -17,8 +17,8 @@ int main()
     scanf("%d",&quantity);
     printf("----- PRODUCT DETAILS -----\n");
     printf("Product : %s\n",prod_name);
-    printf("Price: $%lf\n",price);
-    printf("Discount: %lf\n",discount,"%");
+    printf("Price: $%.2f\n",price);
+    printf("Discount: %.2f\n",discount,"%");
     printf("Stock: %d\n",quantity);
      printf("--------------------------\n");
 
